@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 7ab81dd3218b19f43812a0dc472c4f1b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7680
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06da9a30817a6a41b3a4d5dc08832be
+      internalID: -1230925614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_1
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7680
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a78c5883362fd047910828a008a8107
+      internalID: 1257671674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_2
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 7680
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afea50e4ab2b07e42bba147c496cebf5
+      internalID: -896392058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_3
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 7680
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e95dc9d103b464a8e9aebeb5542c42
+      internalID: 1541074323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1272bdfd90ca4af419546ca79c92e927
+      internalID: 588334792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5120
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be331f19a3984eb4e92c22749f21b7fc
+      internalID: -768931974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_6
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 5120
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec47be61ec89dd648b36a0d42a25c458
+      internalID: 292297922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_7
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 5120
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c308f6a872605fe43ae20dcef9736c15
+      internalID: -593354237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df91be7b304f7754bb5a5fd8dcb6feac
+      internalID: -861668520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_9
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6bdb69db402ce4db83e1ca2d866bc3
+      internalID: 399783703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_10
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2560
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1cf3c4a288494438f54786f0286a66
+      internalID: -289209097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_11
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2560
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331b49bb7b4fa934c92dd3eb63316853
+      internalID: 1358704314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356365f9ea7906a41b132aaecbc6d705
+      internalID: -1115203240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c410d5788b21d54298f8fc6f11543f3
+      internalID: -163148226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_14
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6925a4239400b45bc90851fa2b0cf7
+      internalID: -56584939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE_DOWN_NEW _NOSMILE_15
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 2560
+        height: 2560
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01c8e49bb3354147a5a545a651d1bae
+      internalID: 2130150335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IDLE_DOWN_NEW _NOSMILE_7: -593354237
+      IDLE_DOWN_NEW _NOSMILE_6: 292297922
+      IDLE_DOWN_NEW _NOSMILE_1: 1257671674
+      IDLE_DOWN_NEW _NOSMILE_2: -896392058
+      IDLE_DOWN_NEW _NOSMILE_0: -1230925614
+      IDLE_DOWN_NEW _NOSMILE_11: 1358704314
+      IDLE_DOWN_NEW _NOSMILE_15: 2130150335
+      IDLE_DOWN_NEW _NOSMILE_5: -768931974
+      IDLE_DOWN_NEW _NOSMILE_3: 1541074323
+      IDLE_DOWN_NEW _NOSMILE_10: -289209097
+      IDLE_DOWN_NEW _NOSMILE_8: -861668520
+      IDLE_DOWN_NEW _NOSMILE_14: -56584939
+      IDLE_DOWN_NEW _NOSMILE_12: -1115203240
+      IDLE_DOWN_NEW _NOSMILE_13: -163148226
+      IDLE_DOWN_NEW _NOSMILE_9: 399783703
+      IDLE_DOWN_NEW _NOSMILE_4: 588334792
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
