@@ -103518,7 +103518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef794dcdaaf64a4498d0c902da78ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 2
+  sceneBuildIndex: 5
 --- !u!1 &1993824912
 GameObject:
   m_ObjectHideFlags: 0
@@ -103746,7 +103746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answer: teste
   input: {fileID: 1993824914}
-  CurrentScene: 3
+  CurrentScene: 6
 --- !u!1 &2043226510
 GameObject:
   m_ObjectHideFlags: 0
