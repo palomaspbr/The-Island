@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/9 - Final.unity
     guid: 4c20fa332e04b8b478e44104a8e2c350
+  - enabled: 1
+    path: Assets/Scenes/10 - Tesouro.unity
+    guid: 6816ef6ca1c11274bb72f6c6aff67da5
   m_configObjects: {}
