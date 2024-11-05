@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87bd258b84831584a91a2ab7412b1404, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wall: 4
+  wall: 2
   tap: {fileID: 1232374680}
 --- !u!1 &203175178
 GameObject:
@@ -103928,7 +103928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87bd258b84831584a91a2ab7412b1404, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wall: 2
+  wall: 4
   tap: {fileID: 1232374680}
 --- !u!114 &1557096401 stripped
 MonoBehaviour:
