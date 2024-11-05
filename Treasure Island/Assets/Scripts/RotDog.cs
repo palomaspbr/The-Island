@@ -7,6 +7,17 @@ public class RotDog : MonoBehaviour
     public int rotacoes;
     public float tempo = 0;
 
+    private AudioSource audio;
+    public AudioClip clip;
+
+    public GameObject texto;
+    public GameObject texto_novo;
+
+    void Start()
+    {
+        audio = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         tempo += Time.deltaTime;
@@ -18,7 +29,9 @@ public class RotDog : MonoBehaviour
 
         if(rotacoes == 13)
         {
-            //faz algo
+            audio.PlayOneShot(clip);
+            texto.SetActive(false);
+            texto_novo.SetActive(true);
         }
 
         if(Input.GetKeyDown(KeyCode.Z))
