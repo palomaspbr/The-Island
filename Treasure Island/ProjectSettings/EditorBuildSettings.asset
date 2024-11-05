@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/8 - Beach2.unity
     guid: c44bec7cc4573d245b49055fbbce142e
+  - enabled: 1
+    path: Assets/Scenes/9 - Final.unity
+    guid: 4c20fa332e04b8b478e44104a8e2c350
   m_configObjects: {}

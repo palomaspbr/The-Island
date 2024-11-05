@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,7 +21,13 @@ public class CheckBoatCollision : MonoBehaviour
     {
         if (canWin && Input.GetKeyDown(KeyCode.Z))
         {
-            Debug.Log("Yay");
+            StartCoroutine(WaitAndTransition());
         }
+    }
+
+    IEnumerator WaitAndTransition()
+    {
+        yield return new WaitForSeconds(1.5f);
+        LevelManager.Instance.LoadScene(9, "Fade");
     }
 }
