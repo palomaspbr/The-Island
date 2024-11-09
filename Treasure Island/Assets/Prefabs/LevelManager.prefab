@@ -152,6 +152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transitionsContainer: {fileID: 8231633658892345650}
+  HasMusic: 0
+  musica: {fileID: 0}
 --- !u!1 &8231633660284761445
 GameObject:
   m_ObjectHideFlags: 0

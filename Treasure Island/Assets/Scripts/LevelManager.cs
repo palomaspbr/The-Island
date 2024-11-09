@@ -12,6 +12,12 @@ public class LevelManager : MonoBehaviour
 
     private SceneTransition[] transitions;
 
+    public bool HasMusic = false;
+
+    public GameObject musica;
+    private AudioSource audio;
+    private bool isTransistioning;
+
     private void Awake(){
         if(Instance == null){
             Instance = this;
@@ -19,6 +25,11 @@ public class LevelManager : MonoBehaviour
         }
         else{
             Destroy(gameObject);
+        }
+
+        if (HasMusic)
+        {
+            audio = musica.GetComponent<AudioSource>();
         }
     }
 
@@ -35,9 +46,29 @@ public class LevelManager : MonoBehaviour
         AsyncOperation scene = SceneManager.LoadSceneAsync(sceneIndex);
         scene.allowSceneActivation = false;
 
+        if (HasMusic)
+        {
+            isTransistioning = true;
+        }
+
         yield return transition.AnimateTransitionIn();
 
         scene.allowSceneActivation = true;
         yield return transition.AnimateTransitionOut();
     }
+
+    private void Update()
+    {
+        if (isTransistioning)
+        {
+            audio.volume -= 0.01f;
+            if(audio.volume == 0.005f)
+            {
+                Debug.Log("Chegou aqui!");
+                isTransistioning = false;
+
+            }
+        }
+    }
+
 }
