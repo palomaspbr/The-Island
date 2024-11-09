@@ -12,6 +12,7 @@ public class RotDog : MonoBehaviour
 
     public GameObject texto;
     public GameObject texto_novo;
+    public GameObject texto_novo_2;
 
     void Start()
     {
@@ -32,6 +33,7 @@ public class RotDog : MonoBehaviour
             audio.PlayOneShot(clip);
             texto.SetActive(false);
             texto_novo.SetActive(true);
+            texto_novo_2.SetActive(true);
         }
 
         if(Input.GetKeyDown(KeyCode.Z))
