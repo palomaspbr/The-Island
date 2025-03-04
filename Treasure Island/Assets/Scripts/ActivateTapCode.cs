@@ -7,7 +7,7 @@ public class ActivateTapCode : MonoBehaviour
     public int wall;
     public TapCodeGame tap;
 
-    void OnCollisionEnter2D(Collision2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Player")
         {
@@ -18,12 +18,6 @@ public class ActivateTapCode : MonoBehaviour
 
             if (wall == 2)
                 tap.Wall2();
-
-            if (wall == 3)
-                tap.Wall3();
-
-            if (wall == 4)
-                tap.Wall4();
         }
     }
 }

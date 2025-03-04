@@ -19,13 +19,15 @@ public class LevelManager : MonoBehaviour
     private bool isTransistioning;
 
     private void Awake(){
-        if(Instance == null){
+        /*if(Instance == null){
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else{
             Destroy(gameObject);
-        }
+        }*/
+
+        Instance = this;
 
         if (HasMusic)
         {

@@ -36,7 +36,6 @@ public class BarrelManager : MonoBehaviour
             num_prev = 0;
         }
 
-        //Debug.Log(contagem);
 
     }
 
