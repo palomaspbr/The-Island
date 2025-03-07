@@ -104787,7 +104787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef794dcdaaf64a4498d0c902da78ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 5
+  sceneBuildName: 5 - Level3
 --- !u!1 &1993824912
 GameObject:
   m_ObjectHideFlags: 0
@@ -105015,7 +105015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answer: a0dd55d6daafa5142d85e8dbd90608078aa7f110df860d4c63df22aaa29d4d8f
   input: {fileID: 1993824914}
-  CurrentScene: 6
+  nextScene: 7 - level5
 --- !u!4 &1995529678 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4519005628774490802, guid: 3b2fb5f6a3b26b34fbf3500112af0a24, type: 3}

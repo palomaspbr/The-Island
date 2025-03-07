@@ -10,13 +10,13 @@ public class CheckAnswer : MonoBehaviour
 {
     [SerializeField] private string answer;
     public TMP_InputField input;
-    public int CurrentScene;
+    public string nextScene;
 
     public void Answer()
     {
         string text = sha256(input.text);
         if (text == answer)
-            LevelManager.Instance.LoadScene(CurrentScene + 1, "Fade");
+            LevelManager.Instance.LoadScene(nextScene, "Fade");
     }
 
     static string sha256(string randomString)

@@ -106018,7 +106018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ef794dcdaaf64a4498d0c902da78ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneBuildIndex: 4
+  sceneBuildName: 4 - Level2
 --- !u!1 &1966538571
 GameObject:
   m_ObjectHideFlags: 0
@@ -106277,7 +106277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answer: 541503da941cd76636a654dd2150f7fd63f90555d3f6a412f73739afac175646
   input: {fileID: 1993824914}
-  CurrentScene: 5
+  nextScene: 6 - Level4
 --- !u!1 &2043226510
 GameObject:
   m_ObjectHideFlags: 0

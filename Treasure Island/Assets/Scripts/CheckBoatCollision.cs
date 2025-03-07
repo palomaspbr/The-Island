@@ -29,6 +29,6 @@ public class CheckBoatCollision : MonoBehaviour
     IEnumerator WaitAndTransition()
     {
         yield return new WaitForSeconds(1.5f);
-        LevelManager.Instance.LoadScene(8, "Fade");
+        LevelManager.Instance.LoadScene("8 - Final", "Fade");
     }
 }

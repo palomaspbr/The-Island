@@ -39,13 +39,13 @@ public class LevelManager : MonoBehaviour
         transitions = transitionsContainer.GetComponentsInChildren<SceneTransition>();
     }
 
-    public void LoadScene(int sceneIndex, string transitionName){
-        StartCoroutine(LoadSceneAsync(sceneIndex, transitionName));
+    public void LoadScene(string sceneName, string transitionName){
+        StartCoroutine(LoadSceneAsync(sceneName, transitionName));
     }
 
-    private IEnumerator LoadSceneAsync(int sceneIndex, string transitionName){
+    private IEnumerator LoadSceneAsync(string sceneName, string transitionName){
         SceneTransition transition = transitions.First(t => t.name == transitionName);
-        AsyncOperation scene = SceneManager.LoadSceneAsync(sceneIndex);
+        AsyncOperation scene = SceneManager.LoadSceneAsync(sceneName);
         scene.allowSceneActivation = false;
 
         if (HasMusic)
@@ -66,7 +66,6 @@ public class LevelManager : MonoBehaviour
             audio.volume -= 0.01f;
             if(audio.volume == 0.005f)
             {
-                Debug.Log("Chegou aqui!");
                 isTransistioning = false;
 
             }

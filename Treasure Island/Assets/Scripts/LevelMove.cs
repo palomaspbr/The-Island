@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class LevelMove : MonoBehaviour
 {
-    public int sceneBuildIndex;
+    public string sceneBuildName;
     
     private void OnTriggerEnter2D(Collider2D other){
         if (other.tag == "Player"){
-            LevelManager.Instance.LoadScene(sceneBuildIndex, "Fade");
+            LevelManager.Instance.LoadScene(sceneBuildName, "Fade");
         }
     }
 }

@@ -38,7 +38,7 @@ public class StartMenu : MonoBehaviour
         tela.SetActive(false);
         //yield return transition.AnimateTransitionOut();
         preto.SetActive(false);
-        LevelManager.Instance.LoadScene(1, "Fade");
+        LevelManager.Instance.LoadScene("1 - Beach", "Fade");
     }
 
 }
