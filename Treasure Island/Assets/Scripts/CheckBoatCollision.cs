@@ -9,7 +9,8 @@ public class CheckBoatCollision : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        canWin = true;
+        if(PlayerPrefs.GetInt("canWin") == 1)
+            canWin = true;
     }
 
     public void OnTriggerExit2D(Collider2D collision)
@@ -28,6 +29,6 @@ public class CheckBoatCollision : MonoBehaviour
     IEnumerator WaitAndTransition()
     {
         yield return new WaitForSeconds(1.5f);
-        LevelManager.Instance.LoadScene(9, "Fade");
+        LevelManager.Instance.LoadScene(8, "Fade");
     }
 }

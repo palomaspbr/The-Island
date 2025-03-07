@@ -34,6 +34,7 @@ public class RotDog : MonoBehaviour
             texto.SetActive(false);
             texto_novo.SetActive(true);
             texto_novo_2.SetActive(true);
+            PlayerPrefs.SetInt("canWin", 1);
         }
 
         if(Input.GetKeyDown(KeyCode.Z))

@@ -12,6 +12,12 @@ public class SingleBarrel : MonoBehaviour
     void Start()
     {
         audio = GetComponent<AudioSource>();
+        if(PlayerPrefs.GetInt("barrel") == 1)
+        {
+            this.gameObject.SetActive(false);
+            text.SetActive(false);
+            levelMoveForward.SetActive(true);
+        }
     }
 
     void OnMouseDown()
@@ -26,6 +32,7 @@ public class SingleBarrel : MonoBehaviour
         col.enabled = false;
         yield return new WaitForSeconds(.7f);
         this.gameObject.SetActive(false);
+        PlayerPrefs.SetInt("barrel", 1);
         text.SetActive(false);
         levelMoveForward.SetActive(true);
     }
